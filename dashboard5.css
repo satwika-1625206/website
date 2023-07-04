@@ -1,0 +1,73 @@
+@import url("https://fonts.goggleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing:border-box;
+    font-family:"Poppins", sans-serif;
+}
+body{
+    background: #dfe9f5;
+}
+.container{
+    display:flex;
+}
+nav{
+    position: relative;;
+    top:0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    background:  #dfe9f5;
+    width:280px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    
+}
+a{
+    position: relative;
+    color: rgb(85, 83, 83);
+    font-size:14px;
+    display: table;
+    width: 280px;
+    padding: 10px;
+    background-color:  #dfe9f5;
+}
+nav .fas{
+    position:relative;
+    width:70px;
+    height:40px;
+    top:14px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-item{
+    position:relative;
+    top:12px;
+    margin-left: 10px;
+}
+a:hover{
+    background: #dfe9f5;
+}
+.logout{
+    position: relative;
+    bottom:0;
+}
+.image-container {
+  position: relative; /* Add position: relative to the container */
+  display: flex;
+  justify-content: center; /* Change the justify-content value to modify the horizontal position */
+  align-items: center; /* Change the align-items value to modify the vertical position */
+  height: 100vh;
+}
+.image2 {
+  position: absolute;
+  right: -992px; /* Adjust the right position as desired */
+  top: 50%; /* Adjust the top position as desired */
+  transform: translate(0, -50%); 
+  height: 98vh;
+  width: 176vh;
+  /* Center the image vertically */
+}
